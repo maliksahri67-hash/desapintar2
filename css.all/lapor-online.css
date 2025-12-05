@@ -1,0 +1,215 @@
+/*Lapor Online Section*/
+.sec_5{
+  width: 100%;
+  overflow: hidden;
+}
+
+.sec_5_main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.lapor{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+
+.lapor h3{
+  text-align: center;
+  font-size: 32px;
+  color: #1F2F59;
+}
+
+.lapor hr{
+  width: 6%;
+  height: 3px;
+  background-color: #ff7a00;
+  align-items: center;
+  border: none;
+}
+
+.sub-laporkan{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.laporkan-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.laporkan{
+  display: flex;
+  background-color: #ff7a00;
+  border-radius: 100px;
+  width: 120px;
+  font-size: 12px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  margin-right: 600px;
+}
+
+.laporkan a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sub-laporkan p{
+  color: #5DC3B2;
+  text-align: end;
+  margin-left: 18px;
+  margin-right: 5px;
+  justify-content: flex-end;
+}
+
+.container-lapor{
+  display: flex;
+  width: 180px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.container-ling{
+  display: flex;
+  width: 180px;
+  flex-direction: column;
+  align-items: center;
+  gap: 190px;
+  margin-bottom: 40px;
+}
+
+.lingkaran {
+  width: 20px;
+  height: 20px;
+  border: 6px solid #5DC3B2;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.lingkaran::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  margin-top: 10%;
+  background-color: #3498db;
+  left: 10%;
+  transform: translateX(-50%);
+  top: 100%;
+}
+
+.item:last-child .lingkaran::after {
+  display: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.tanggal{
+  color: #1f2f59;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.card4{
+  width: 829px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.card-lapor {
+  width: 829px;
+  height: 176px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card-gmbr-lapor {
+  width: 258px;
+  height: 139px;
+  padding: 20px;
+}
+
+.card_teks{
+  width: 72%;
+  height: auto;
+}
+.sub-lapor{
+  display: flex;
+  width: 98%;
+  margin-top: -6px;
+  margin-left: 2px;
+  justify-content: space-between;
+  align-items: center;
+}
+.ditanggapi-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ditanggapi{
+  display: flex;
+  background-color: #FECB34;
+  border-radius: 100px;
+  width: 99px;
+  font-size: 12px;
+  height: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.ditanggapi a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.card_teks h4{
+  font-size: 14px;
+  color: #5B6580;
+  font-weight: 400;
+}
+
+.card_teks h5{
+  color: #2D3C64;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.card_teks p{
+  font-size: 14px;
+  color: #717A91;
+  margin-bottom: 20px;
+}
+
+.card_teks time{
+  font-size: 12px;
+  color: #5B6580;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+/*End Lapor Online Section*/

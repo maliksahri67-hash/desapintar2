@@ -1,0 +1,87 @@
+/*Layanan Section*/
+.sec_4{
+  width: 100%;
+  overflow: hidden;
+}
+
+.sec_4_main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.layanan{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+
+.layanan h3{
+  text-align: center;
+  font-size: 32px;
+  color: #1F2F59;
+}
+
+.layanan hr{
+  width: 6%;
+  height: 3px;
+  background-color: #ff7a00;
+  align-items: center;
+  border: none;
+}
+
+.layanan p{
+  padding: 20px 0px;
+  color: #747F99;
+}
+
+.garis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-layanan{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px; 
+  padding-bottom: 10px;
+}
+
+.card3{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-layanan {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card-gmbr-surat {
+  display: flex;
+  padding: 20px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.text-layanan{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  color: #2A3961;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+/*End Layanan Section*/

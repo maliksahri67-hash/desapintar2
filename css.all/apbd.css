@@ -1,0 +1,57 @@
+/*Apbd Section*/
+.apbd{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-apbd {
+  width: 90%;
+  height:50%;
+  background-color: #fcfcfd;   
+  border-radius: 20px;
+  justify-content: space-between;
+  margin-right: 150px 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.container-apbd h2 { 
+  margin-top: 2px; 
+  padding: 50px;
+  color: #1F2F59;
+}
+
+.container-apbd p {
+  width: 60%;
+  padding-right: 255px;
+  padding-left: 50px;
+  color: #66718D;
+  padding-top: 2px;
+  font-size: 16px;
+  text-align: left;
+  margin-top: -40px;
+}
+
+.btn-tampilkan {
+  display: flex;
+  background: #ff7a00;
+  color: #fff;
+  font-size: 13px;
+  width: 90px;
+  height: 12px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 100px;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-tampilkan:hover {
+  background: #ff7a00;
+}
+/*End Apbd Section*/

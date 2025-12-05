@@ -1,0 +1,260 @@
+/*Potensi Section*/
+.sec_3{
+  width: 100%;
+  overflow: hidden;
+}
+
+.sec_3_main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.potensi{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+.potensi h3{
+  text-align: center;
+  font-size: 32px;
+  color: #1F2F59;
+}
+.potensi hr{
+  width: 6%;
+  height: 3px;
+  background-color: #ff7a00;
+  align-items: center;
+  border: none;
+}
+
+.potensi p{
+  padding: 20px 0px;
+  color: #747F99;
+}
+.garis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-potensi-1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.semua-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.semua{
+  display: flex;
+  background-color: #5DC3B2;
+  border-radius: 100px;
+  width: 92px;
+  font-size: 16px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  padding-right: 2px;
+}
+
+.semua a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.umkm-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.umkm{
+  display: flex;
+  background-color: #bae5d7;
+  border-radius: 100px;
+  width: 92px;
+  font-size: 16px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  margin-left: -40px;
+}
+
+.umkm a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sub-potensi-1 p{
+  color: #66C7B6;
+}
+
+.sub-potensi-2{
+  width: 90%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tambahpotensi-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.tambahpotensi{
+  display: flex;
+  background-color: #ff7a00;
+  border-radius: 100px;
+  width: 158px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  margin-left: 360px;
+}
+
+.tambahpotensi a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.lihatpeta-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+.lihatpeta{
+  display: flex;
+  background-color: #ff7a00;
+  border-radius: 100px;
+  width: 120px;
+  font-size: 12px;
+  height: 36px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  margin-left: -240px;
+}
+
+.lihatpeta a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sub-potensi-2 p{
+  color: #5DC3B2;
+  text-align: end;
+  margin-left: 18px;
+  margin-right: 5px;
+  justify-content: flex-end;
+}
+
+.container-potensi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.card2{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-potensi {
+  width: 330px;
+  height: 360px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+  .card-gmbr {
+    width: 100%;
+    height: auto;
+  }
+.sub-potensi-3{
+  display: flex;
+  width: 93%;
+  padding-left: 20px;
+  margin-top: -6px;
+  justify-content: space-between;
+  align-items: center;
+}
+.wisata-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wisata{
+  display: flex;
+  background-color: #E2F3F2;
+  border-radius: 100px;
+  width: 74px;
+  font-size: 12px;
+  height: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.wisata a{
+  color: #65C6B5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.sub-potensi-3 p{
+  color: #2A3961;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.text-potensi{
+  flex: 1;
+}
+
+.text-potensi h2{
+  color: #2D3C64;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 4px;
+}
+
+.ket-potensi{
+  color: #555F7C;
+  font-size: 14px;
+  width: 90%;
+  padding: 15px;
+}
+/*end Potensi Section*/

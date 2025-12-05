@@ -1,0 +1,79 @@
+/*HERO SECTION*/
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  padding-top: 150px;
+}
+
+.hero_content {
+  width: 100%;
+  align-items: center;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.desa{
+  font-size: 64px;
+  font-weight: bold;
+  color: #1f2f59;
+}
+
+.prawatan {
+  margin-top: -30px;
+  color: #ff7a00;
+}
+
+.kolom-teks p {
+  margin-bottom: 32px;
+  color: #66718D;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.kolom-teks {
+  width: 38%; 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-right: 10px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.button{
+  background: #ff7a00;
+  color: #fff;
+  font-size: 13px;
+  width: 150px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.button a{
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.kolom-gambar {
+  width: 600px;
+  height: 434px;
+  display: flex;
+  gap: 10px;
+}
+
+.img {
+  width: 540px;
+  border-radius: 18px;
+}
+/*End Hero Section*/

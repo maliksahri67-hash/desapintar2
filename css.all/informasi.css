@@ -1,0 +1,135 @@
+/*Informasi Section*/
+.info{
+  text-align: center;
+  padding-top: 158px;
+}
+.info h3{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1F2F59;
+}
+.info hr{
+  width: 6%;
+  height: 3px;
+  background-color: #ff7a00;
+  align-items: center;
+  border: none;
+}
+
+.info p{
+  padding: 20px ;
+  color: #747F99;
+}
+.garis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info_main{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info_main a{
+  text-decoration: none;
+  color: #66C7B6;
+}
+.card_info{
+  width: 90%;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+.card_info_main{
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.card_calder{
+  width: 25%;
+  gap: 5px;
+  height: auto;
+  text-align: left;
+}
+
+.card_teks{
+  width: 72%;
+  height: auto;
+}
+
+.info-tgl{
+  color: #ff7a00;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  margin: 0;
+}
+
+.info-bln{
+  color: #20305A;
+  font-size: 18px;
+  padding-top: 6px;
+}
+.blue{
+  color: #20305A;
+  font-size: 18px;
+}
+
+
+.info-jam{
+  color: #747F99;
+  padding-top: 6px;
+}
+
+.text-info{
+  flex: 1;
+}
+
+.text-info h3{
+  color: #2D3C64;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+.ket-info{
+  color: #555F7C;
+  font-size: 14px;
+  width: 85%;
+}
+
+.lihatdetail-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.lihat-detail{
+  display: flex;
+  border: 2px solid#FF7A00;
+  border-radius: 100px;
+  width: 118px;
+  font-size: 16px;
+  height: 38px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.lihat-detail a{
+  color: #FF7A00;
+  text-decoration: none;
+  font-size: 16px;
+}
+/*End Informasi Section*/

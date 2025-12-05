@@ -1,0 +1,18 @@
+/*Maps Section*/
+.maps{
+  width: 100%;
+  display: flex;
+  height: auto;
+  margin-top: 20px;
+}
+.maps iframe{
+  width: 800px;
+  height: 560px;
+}
+
+.isi_main{
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+/*End Maps Section*/

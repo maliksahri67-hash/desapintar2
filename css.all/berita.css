@@ -1,0 +1,89 @@
+/*Berita Section*/
+.berita{
+  text-align: center;
+}
+.berita h3{
+  text-align: center;
+  font-size: 32px;
+  color: #1F2F59;
+}
+.berita hr{
+  width: 6%;
+  height: 3px;
+  background-color: #ff7a00;
+  align-items: center;
+  border: none;
+}
+
+.berita p{
+  padding: 20px 0px;
+  color: #747F99;
+}
+.garis{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.berita_main{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.berita_main a{
+  text-decoration: none;
+  color: #66C7B6;
+}
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card_berita {
+  width: 90%;
+  height: 177px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card_gmbr {
+  width: 314px;
+  height: 176px;
+}
+
+.card-teks{
+  width: 72%;
+  height: auto;
+}
+.card-teks time{
+  font-size: 14px;
+  color: #ff7a00;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+.card-teks h2{
+  color: #2D3C64;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.card-teks p{
+  font-size: 14px;
+  color: #717A91;
+  margin-bottom: 20px;
+}
+
+.card-teks a{
+  font-size: 12px;
+  color: #66C7B6;
+  font-weight: 400;
+}
+/*End Berita Section*/

@@ -1,0 +1,1028 @@
+/* MOBILE MODE (320px - 768px)*/
+@media (min-width: 320px) and (max-width: 768px) {
+
+    /*NAVBAR*/
+    .navbar-container {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 20px;
+    }
+
+    .logo img {
+        width: auto;
+        height: auto;
+    }
+
+    .menu-icon {
+        display: flex;
+        margin: 20px;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    #menu-toggle:checked+.menu-icon+.nav-ul {
+        max-height: 500px;
+    }
+
+    /*HERO*/
+    .hero_content {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .desa {
+        font-size: 40px;
+        font-weight: bold;
+        color: #1f2f59;
+    }
+
+    .prawatan {
+        margin-top: -18px;
+        color: #ff7a00;
+    }
+
+    .kolom-teks {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .kolom-teks p {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .kolom-gambar {
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .img:nth-child(2) {
+        display: none;
+    }
+
+    /*APBD*/
+    .container-apbd {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .kolom-teks-apbd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    .kolom-teks-apbd h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .kolom-teks-apbd p {
+        width: 80%;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Tombol */
+    .btn-tampilkan {
+        padding: 10px 18px;
+        font-size: 14px;
+        border-radius: 20px;
+        width: fit-content;
+    }
+
+    /*BERITA*/
+    .berita h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .berita hr {
+        width: 14%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .berita p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .berita_main a {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+
+    .card_berita {
+        flex-direction: column;
+        height: auto;
+        width: 86%;
+    }
+
+    .card_gmbr {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_gmbr img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .card-teks {
+        width: 90%;
+        padding: 10px 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .card-teks time,
+    .card-teks h2,
+    .card-teks p,
+    .card-teks a {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /*INFORMASI*/
+    .info h3 {
+        text-align: center;
+        font-size: 20px;
+        color: #1F2F59;
+    }
+
+    .info hr {
+        width: 18%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .info p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .info_main a {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+
+    .card_info {
+        display: flex;
+        flex-direction: column;
+        width: 86%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .card_info_main {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card_calder {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        height: auto;
+        font-size: 12px;
+        margin-top: 10px;
+        gap: 1px;
+    }
+
+    .info-tgl {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-size: 32px;
+    }
+
+    .info-jam {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+
+    .text-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-info h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .ket-info {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .lihatdetail-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .lihat-detail {
+        width: 100%;
+        height: auto;
+    }
+
+    .lihatdetail-btn .btn- {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    /*POTENSI*/
+    .potensi h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .potensi hr {
+        width: 16%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .semua-btn,
+    .umkm-btn {
+        display: inline-flex;
+        margin: 15px;
+    }
+
+    .sub-potensi-1 p {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .sub-potensi-1 {
+        flex-wrap: wrap;
+        width: 86%;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .sub-potensi-2 {
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sub-potensi-2 p {
+        display: none;
+    }
+
+    .container-potensi {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        display: block;
+    }
+
+    .card2,
+    .card-potensi {
+        width: 94%;
+        margin: 0 auto 16px;
+        box-sizing: border-box;
+    }
+
+    /*LAYANAN*/
+    .layanan h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .layanan hr {
+        width: 18%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .card3 {
+        width: 86%;
+    }
+
+    .card-layanan {
+        width: 100%;
+    }
+
+    .text-layanan {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .text-layanan h2 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    /*LAPOR ONLINE*/
+    .lapor h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .lapor hr {
+        width: 20%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .container-lapor {
+        display: flex;
+        margin-bottom: 150px;
+        width: auto;
+    }
+
+    .container-ling {
+        display: none;
+    }
+
+    .card4 {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .card-lapor {
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .card-gmbr-lapor {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .card-gmbr-lapor img {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    .sub-lapor {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card_teks {
+        width: 80%;
+        height: auto;
+        text-align: start;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    /*PETA DAN MAPS*/
+    .card-text-peta {
+        width: 90%;
+    }
+
+    .card-text-peta iframe {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-text-peta p {
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .vector-icons {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .vector_1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .vector_1 p {
+        font-size: 12px;
+    }
+
+    .tombol {
+        justify-content: center;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    /*FOOTER*/
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .foot-ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .foot-ul li {
+        display: block;
+    }
+
+    .footer-sosmed {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/* TABLET MODE (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*NAVBAR*/
+    .navbar-container {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 5%;
+    }
+
+    .logo img {
+        width: auto;
+        height: auto;
+    }
+
+    .menu-icon {
+        display: flex;
+        margin: 5%;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    #menu-toggle:checked+.menu-icon+.nav-ul {
+        max-height: 500px;
+    }
+
+    /*HERO*/
+    .hero_content {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .desa {
+        font-size: 40px;
+        font-weight: bold;
+        color: #1f2f59;
+    }
+
+    .prawatan {
+        margin-top: -18px;
+        color: #ff7a00;
+    }
+
+    .kolom-teks {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .kolom-teks p {
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .kolom-gambar {
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .img {
+        max-width: 44%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .img:nth-child(2) {
+        display: flex;
+
+    }
+
+    /*APBD*/
+    .container-apbd {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .kolom-teks-apbd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    .kolom-teks-apbd h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .kolom-teks-apbd p {
+        width: 80%;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Tombol */
+    .btn-tampilkan {
+        padding: 10px 18px;
+        font-size: 14px;
+        border-radius: 20px;
+        width: fit-content;
+    }
+
+    /*BERITA*/
+    .berita h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .berita hr {
+        width: 10%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .berita p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .berita_main a {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+
+    .card_berita {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+
+    .card_gmbr {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_gmbr img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .card-teks {
+        width: 90%;
+        padding: 10px 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .card-teks time,
+    .card-teks h2,
+    .card-teks p,
+    .card-teks a {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /*INFORMASI*/
+    .info h3 {
+        text-align: center;
+        font-size: 20px;
+        color: #1F2F59;
+    }
+
+    .info hr {
+        width: 12%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .info p {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .info_main a {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+
+    .card_info {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+
+    .card_info_main {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card_calder {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        height: auto;
+        font-size: 12px;
+        margin-top: 10px;
+        gap: 1px;
+    }
+
+    .info-tgl {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-size: 32px;
+    }
+
+    .info-jam {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+
+    .text-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-info h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .ket-info {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .lihatdetail-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .lihat-detail {
+        width: 100%;
+        height: auto;
+    }
+
+    .lihatdetail-btn .btn- {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    /*POTENSI*/
+    .potensi h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .potensi hr {
+        width: 10%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .semua-btn,
+    .umkm-btn {
+        display: inline-flex;
+        margin: 15px;
+    }
+
+    .sub-potensi-1 p {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .sub-potensi-1 {
+        flex-wrap: wrap;
+        width: 86%;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .sub-potensi-2 {
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-potensi {
+        width: 90%;
+        padding: 0;
+        justify-content: space-between;
+        gap: 10px;
+        display: flex;
+    }
+
+    .card2,
+    .card-potensi {
+        width: 100%;
+        flex: 0 0 calc((100% - 40px) / 2);
+        margin: 0 auto 16px;
+        box-sizing: border-box;
+    }
+
+    /*LAYANAN*/
+    .layanan h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .layanan hr {
+        width: 10%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .container-layanan {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card3 {
+        width: 48%;
+    }
+
+    .card-layanan {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .text-layanan {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .text-layanan h2 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    /*LAPOR ONLINE*/
+    .lapor h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .lapor hr {
+        width: 20%;
+        margin-top: 10px;
+        height: 3px;
+    }
+
+    .container-lapor {
+        display: flex;
+        margin-bottom: 150px;
+        width: auto;
+    }
+
+    .container-ling {
+        display: none;
+    }
+
+    .card4 {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .card-lapor {
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .card-gmbr-lapor {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .card-gmbr-lapor img {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    .sub-lapor {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card_teks {
+        width: 80%;
+        height: auto;
+        text-align: start;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    /*PETA DAN MAPS*/
+    .card-text-peta {
+        width: 90%;
+    }
+
+    .card-text-peta iframe {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-text-peta p {
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .vector-icons {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .vector_1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .vector_1 p {
+        font-size: 12px;
+    }
+
+    .tombol {
+        justify-content: center;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    /*FOOTER*/
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .foot-ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .foot-ul li {
+        display: block;
+    }
+
+    .footer-sosmed {
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+}

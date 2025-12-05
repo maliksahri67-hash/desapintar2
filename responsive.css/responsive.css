@@ -1,0 +1,1116 @@
+/* Tablet/desktop kecil (≤ 1024px) */
+@media(max-width: 1024px) {
+  .navbar-container {
+    gap: 20px;
+    height: 80px;
+  }
+
+  .logo {
+    border: 20px;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .nav-ul {
+    width: 62%;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .nav-ul li {
+    width: 60px;
+    display: flex;
+  }
+
+  .hero {
+    padding-top: 20vh;
+  }
+
+  .kolom-teks {
+    width: 40%;
+    gap: 20px;
+    margin-left: 20px;
+  }
+
+  .kolom-gambar {
+    gap: 20px;
+    width: 20%;
+    justify-content: center;
+  }
+
+  .img {
+    width: 60vh;
+    height: 100%;
+  }
+
+  .container-apbd {
+    width: 88%;
+    height: auto;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .kolom-teks-apbd p {
+    width: auto;
+    margin-top: 20px;
+    color: #66718D;
+    padding-top: 2px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .card_berita {
+    width: 87%;
+  }
+
+  .berita_main {
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+
+  .berita_main a {
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+
+  .card-teks {
+    width: 64%;
+    height: 80%;
+    padding: 20px;
+  }
+
+  .card_calder {
+    padding-left: 10px;
+    width: 32%;
+    margin: auto;
+  }
+
+  .text-info {
+    width: 80%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .text-info h3 {
+    color: #2D3C64;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 15px;
+  }
+
+  .ket-info {
+    color: #555F7C;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .sub-potensi-1 {
+    width: 68%;
+  }
+
+  .sub-potensi-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .sub-potensi-2 p {
+    align-self: flex-end;
+  }
+
+  .container-potensi {
+    width: 80%;
+    gap: 15px;
+  }
+
+  .card2 {
+    flex: 0 0 calc((100% - 40px) / 3);
+  }
+
+  .card-potensi {
+    width: 260px;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-gmbr {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .card-gmbr img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+  }
+
+  .sub-potensi-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .wisata {
+    background-color: #E2F3F2;
+    border-radius: 100px;
+    width: 74px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wisata a {
+    font-size: 12px;
+    color: #65C6B5;
+    text-decoration: none;
+  }
+
+  .text-potensi h2 {
+    font-size: 16px;
+    padding: 0 20px;
+    color: #2D3C64;
+    margin-bottom: 15px;
+  }
+
+  .ket-potensi {
+    font-size: 13px;
+    padding: 0 20px 20px 20px;
+    color: #555F7C;
+  }
+
+  .card3 {
+    width: 22%;
+  }
+
+  .card-layanan {
+    width: 100%;
+  }
+
+  .text-layanan {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .text-layanan h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .container-lapor {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container-ling {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    margin: 0 auto;
+  }
+
+  .item {
+    display: flex;
+    width: 200%;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .tanggal {
+    color: #1f2f59;
+    line-height: 20px;
+    font-size: 18px;
+  }
+
+  .card4 {
+    width: 680px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card-lapor {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    justify-content: space-betwtaeen;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .card-text-peta {
+    flex: 1 1 48%;
+    height: auto;
+  }
+
+  .maps iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-text-peta {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .card-icon-peta1 {
+    width: 60px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    background-color: #FFE3D6;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon-peta2 {
+    width: 60px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    background-color: #EBFFFB;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon-peta3 {
+    width: 60px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    background-color: #E7ECFF;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon-peta1 i {
+    color: #FF7A00;
+    font-size: 12px;
+  }
+
+  .card-icon-peta2 i {
+    color: #5DC3B2;
+    font-size: 12px;
+  }
+
+  .card-icon-peta3 i {
+    color: #1F2F59;
+    font-size: 12px;
+  }
+
+  .card-text-peta p {
+    max-width: 300px;
+    font-size: 16px;
+  }
+
+  .foot-logo img {
+    width: 144px;
+    height: 32px;
+  }
+
+  .foot-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;    
+    cursor: pointer;    
+    font-size: 24px;  
+    margin-left: auto;
+  }
+  .nav-ul {
+    max-height: 0; 
+    overflow: hidden;
+    flex-direction: column;
+    transition: max-height 0.3s ease-out;
+  }
+  .btn{
+    display: none;
+  }
+  #menu-toggle:checked + .menu-icon + .nav-ul {
+    max-height: 500px;
+  }
+  .hero_content {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .kolom-teks {
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .kolom-teks p {
+    margin-bottom: 0;
+    color: #66718D;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .kolom-gambar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 12px;
+  }
+
+  .kolom-teks-apbd {
+    display: block;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+  }
+
+  .kolom-teks-apbd p {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    color: #66718D;
+    padding-top: 2px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .card_berita {
+    width: 90%;
+    height: auto;
+  }
+
+  .card_berita {
+    width: 90%;
+    height: 150px;
+  }
+
+  .card_gmbr {
+    width: 180px;
+    height: 150px;
+  }
+
+  .card_gmbr img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-teks {
+    width: calc(44% - 2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    padding-left: 10px;
+    border: none;
+  }
+
+  .card-teks time {
+    font-size: 12px;
+  }
+
+  .card-teks h2 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .card-teks p {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  .card-teks a {
+    font-size: 11px;
+  }
+
+  .info-tgl {
+    color: #ff7a00;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .info-bln {
+    color: #20305A;
+    font-size: 14px;
+    padding-top: 6px;
+  }
+
+  .blue {
+    color: #20305A;
+    font-size: 14px;
+  }
+
+  .info-jam {
+    color: #747F99;
+    font-size: 12px;
+    padding-top: 6px;
+  }
+
+  .card_info {
+    width: 80%;
+    margin: 0 auto;
+    height: 146px;
+    margin-bottom: 20px;
+  }
+
+  .text-info h3 {
+    color: #2D3C64;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 15px;
+  }
+
+  .ket-info {
+    color: #555F7C;
+    font-size: 12px;
+    width: auto;
+  }
+
+  .text-info h3 {
+    margin-bottom: 8px;
+  }
+
+  .ket-info {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .lihat-detail {
+    display: flex;
+    border: 2px solid#FF7A00;
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 110px;
+    height: 28px;
+  }
+
+  .lihat-detail a {
+    color: #FF7A00;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .sub-potensi-1 {
+    gap: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .sub-potensi-1 a.btn- {
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+
+  .sub-potensi-1 p {
+    font-size: 14px;
+  }
+
+  .sub-potensi-2 {
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sub-potensi-2 p {
+    align-self: center;
+  }
+
+  .card3 {
+    width: 40%;
+  }
+
+  .card-layanan {
+    width: 100%;
+  }
+
+  .text-layanan {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .text-layanan h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .container-ling {
+    display: none;
+  }
+
+  .container-lapor {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card-lapor {
+    max-width: 100%;
+  }
+
+  .peta hr {
+    width: 20%;
+  }
+
+  .card-text-peta p {
+    display: flex;
+    font-size: 14px;
+  }
+
+  .vector-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .card-icon-peta1,
+  .card-icon-peta2,
+  .card-icon-peta3 {
+    width: 80px;
+    height: 40px;
+  }
+
+  .vector_1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .vector_1 div i {
+    font-size: 14px;
+  }
+
+  .vector_1 p {
+    font-size: 12px;
+  }
+
+  .footer-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: none;
+  }
+}
+@media screen and (max-width: 376px) {
+  /*NAVBAR*/
+  .menu-icon {
+    display: block;
+    margin: 20px;
+  }
+
+  .logo {
+    margin: 20px;
+  }
+
+  .logo img {
+    width: 188px;
+    height: auto;
+  }
+
+  /*HERO*/
+  .hero_content {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .desa {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f2f59;
+  }
+
+  .prawatan {
+    margin-top: -18px;
+    color: #ff7a00;
+  }
+
+  .kolom-teks {
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .kolom-teks p {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .kolom-gambar {
+    justify-content: center;
+  }
+
+  .img {
+    max-width: 90%;
+    border-radius: 20px;
+  }
+
+  .img:nth-child(2) {
+    display: none;
+  }
+
+  /*APBD*/
+  .kolom-teks-apbd {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .kolom-teks-apbd h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .kolom-teks-apbd p {
+    height: 280px;
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .btn-tampilkan {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  /*BERITA*/
+  .berita h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .berita hr {
+    width: 14%;
+    margin-top: 10px;
+    height: 3px;
+  }
+
+  .berita p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .berita_main a {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+
+  .card_berita {
+    flex-direction: column;
+    height: auto;
+    width: 86%;
+  }
+
+  .card_gmbr {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-teks {
+    width: 90%;
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .card-teks time,
+  .card-teks h2,
+  .card-teks p,
+  .card-teks a {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /*INFORMASI*/
+  .info h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #1F2F59;
+  }
+
+  .info hr {
+    width: 18%;
+    margin-top: 10px;
+    height: 3px;
+  }
+
+  .info p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .info_main a {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+
+  .card_info {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    padding: 10px;
+    height: auto;
+  }
+
+  .card_info_main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card_calder {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    height: auto;
+    font-size: 12px;
+    margin-top: 10px;
+    gap: 1px;
+  }
+
+  .info-tgl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 32px;
+  }
+
+  .info-jam {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .text-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-info h3 {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .ket-info {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .lihatdetail-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .lihat-detail {
+    width: 100%;
+    height: auto;
+  }
+
+  .lihatdetail-btn .btn- {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  /*POTENSI*/
+  .potensi h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .potensi hr {
+    width: 16%;
+    margin-top: 10px;
+    height: 3px;
+  }
+
+  .semua-btn,
+  .umkm-btn {
+    display: inline-flex;
+    margin: 15px;
+  }
+
+  .sub-potensi-1 p {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .sub-potensi-1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sub-potensi-2 {
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sub-potensi-2 p {
+    display: none;
+  }
+
+  .container-potensi {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    display: block;
+  }
+
+  .card2,
+  .card-potensi {
+    width: 94%;
+    margin: 0 auto 16px;
+    box-sizing: border-box;
+  }
+
+  /*LAYANAN*/
+  .layanan h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .layanan hr {
+    width: 18%;
+    margin-top: 10px;
+    height: 3px;
+  }
+
+  .card3 {
+    width: 86%;
+  }
+
+  .card-layanan {
+    width: 100%;
+  }
+
+  .text-layanan {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .text-layanan h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /*LAPOR ONLINE*/
+  .lapor h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .lapor hr {
+    width: 20%;
+    margin-top: 10px;
+    height: 3px;
+  }
+
+  .container-lapor {
+    display: flex;
+    margin-bottom: 150px;
+    width: auto;
+  }
+
+  .container-ling {
+    display: none;
+  }
+
+  .card4 {
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .card-lapor {
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .card-gmbr-lapor {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .sub-lapor {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card_teks {
+    width: 80%;
+    height: auto;
+    text-align: start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  /*PETA DAN MAPS*/
+  .isi_main {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card-text-peta {
+    width: 86%;
+    border: 1px solid;
+    height: auto;
+    padding: 16px;
+    margin: 0;
+  }
+
+  .peta {
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .peta h3 {
+    font-size: 24px;
+    margin: 0 auto 8px auto;
+    text-align: center;
+  }
+
+  .peta hr {
+    width: 50px;
+    height: 3px;
+    margin: 0 auto 16px auto;
+  }
+
+  .card-text-peta p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .vector_1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 16px 0;
+    gap: 8px;
+  }
+
+  .vector_1 p {
+    margin: 4px 0 0 0;
+    width: auto;
+    text-align: center;
+  }
+
+  .tombol {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tombol button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 14px;
+  }
+
+  .maps {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .maps iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
