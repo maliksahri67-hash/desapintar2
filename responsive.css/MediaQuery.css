@@ -95,7 +95,6 @@
         width: 90%;
         box-sizing: border-box;
         border-radius: 10px;
-        margin-top: -20px;
         overflow: hidden;
     }
 
@@ -1028,4 +1027,5 @@
     }
 
 }
+
 
