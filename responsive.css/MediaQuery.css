@@ -67,7 +67,7 @@
 
     .kolom-teks p {
         margin-bottom: 0;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.5;
     }
 
@@ -114,7 +114,7 @@
 
     .kolom-teks-apbd p {
         width: 80%;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.5;
         text-align: center;
         margin-bottom: 15px;
@@ -1027,5 +1027,6 @@
     }
 
 }
+
 
 
